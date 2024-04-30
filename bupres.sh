@@ -103,7 +103,7 @@ execute_command2() {
   # Prompt the user for the backup file name (without .sql extension)
   TIMESTAMP=$(date +"%Y%m%d_%H%M")
   BACKUP_FILE="$SCRIPT_DIR/${BACKUP_FILE_NAME}_${TIMESTAMP}.sql"
- 
+
   # Create the backup
   echo
   echo -n -e "\e[32mCreating backup file...\e[0m"
@@ -138,7 +138,7 @@ execute_command3() {
 
     # Check if there are any SQL files in the directory
     if [ ${#sql_files[@]} -eq 0 ]; then
-        echo "No SQL files found in the $BACKUP_DIR directory"
+        echo -e "No SQL files found in the directory located at: \e[31m$BACKUP_DIR\e[0m"
         return
     fi
 
@@ -152,7 +152,7 @@ execute_command3() {
             # human_timestamp=$(date -d "@${timestamps[$REPLY-1]}" '+%Y-%m-%d %H:%M')
             BACKUP_FILE="$BACKUP_DIR/$file"
             echo
-            
+
             # Display a "Restoring database..." message while the restore is in progress
             echo -n -e "Restoring database from file: \e[32m$file\e[0m"
             echo
