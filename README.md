@@ -34,7 +34,8 @@ This Bash script provides an interactive menu with three commands and an option 
 ## Error Handling
 
 The script includes basic error handling for different scenarios:
-- Asks for sudo password
+- Asks for sudo local password in order to check installed versiones of psql and pg_dump, for example in debian based systems it will run (sudo apt-get install postgresql-client postgresql-client-common -y -qq 2>&1 > /dev/null) 
+
 ![Usage Example](img/2%20-%20OPC%201%20-%20ASK%20SUDO%20PWD.png)
 
 - Any error that apear when traying to create a backup file.
