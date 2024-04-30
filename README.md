@@ -9,6 +9,7 @@ This Bash script provides an interactive menu with three commands and an option 
 ![Usage Example](img/2%20-%20OPC%201%20-%20ASK%20SUDO%20PWD.png)
 <center><span style="color:red;">sudo password maybe required</span></center>
 <br>
+
 ![Usage Example](img/3%20-%20OPC%201%20-%20CHECKS%20FOR%20POSTGRES%20INSTALLS.png)
 
 2. **Backup DB**: This option prompts the user to enter the connection details for the PostgreSQL database they want to back up. It then creates a backup SQL file in the same directory as the script, using the current timestamp in the file name.
