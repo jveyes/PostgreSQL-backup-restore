@@ -124,9 +124,9 @@ execute_command3() {
     # Prompt the user for connection details
     echo -e "Enter the \e[32mPostgreSQL NEW connection\e[0m details:"
     echo
-    read -p "NEW host name: " NEW_PGHOST
-    read -p "NEW database name: " NEW_PGDATABASE
-    read -p "NEW user name: " NEW_PGUSER
+    read -p "NEW HOST: " NEW_PGHOST
+    read -p "NEW DATABASE: " NEW_PGDATABASE
+    read -p "NEW USER: " NEW_PGUSER
 
     # Set the directory where the backup SQL files are located
     BACKUP_DIR=$(pwd)
