@@ -34,18 +34,13 @@ This Bash script provides an interactive menu with three commands and an option 
 ## Error Handling
 
 The script includes basic error handling for different scenarios:
-- Unsupported Linux distribution detection.
-
 - Asks for sudo password
 ![Usage Example](img/2%20-%20OPC%201%20-%20ASK%20SUDO%20PWD.png)
 
-- Error messages for failed installations of PostgreSQL client tools.
-
-
-- Invalid selections in the menu options.
+- Any error that apear when traying to create a backup file.
 ![Usage Example](img/5%20-%20OPC%202%20-%20ERROR%20FOR%20BACKUP.png)
 
-- Errors during the creation or restoration of database backups.
+- Errors hwen there are no .sql files in the directory to restore.
 ![Usage Example](img/7%20-%20OPC%203%20-%20ERROR%20FOR%20RESTORE.png)
 
 ## License
