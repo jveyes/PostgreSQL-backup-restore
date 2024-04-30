@@ -7,7 +7,8 @@ This Bash script provides an interactive menu with three commands and an option 
 1. **Check PostgreSQL**: This option installs the necessary PostgreSQL client tools (based on the detected Linux distribution) and displays the versions of `psql` and `pg_dump`.
 
 ![Usage Example](img/2%20-%20OPC%201%20-%20ASK%20SUDO%20PWD.png)
-
+<center style="color:red;">sudo password maybe required</center>
+<br>
 ![Usage Example](img/3%20-%20OPC%201%20-%20CHECKS%20FOR%20POSTGRES%20INSTALLS.png)
 
 2. **Backup DB**: This option prompts the user to enter the connection details for the PostgreSQL database they want to back up. It then creates a backup SQL file in the same directory as the script, using the current timestamp in the file name.
