@@ -7,7 +7,7 @@ This Bash script provides an interactive menu with three commands and an option 
 1. **Check PostgreSQL**: This option installs the necessary PostgreSQL client tools (based on the detected Linux distribution) and displays the versions of `psql` and `pg_dump`.
 
 ![Usage Example](img/2%20-%20OPC%201%20-%20ASK%20SUDO%20PWD.png)
-<center style="color:red;">sudo password maybe required</center>
+<center><span style="color:red;">sudo password maybe required</span></center>
 <br>
 ![Usage Example](img/3%20-%20OPC%201%20-%20CHECKS%20FOR%20POSTGRES%20INSTALLS.png)
 
