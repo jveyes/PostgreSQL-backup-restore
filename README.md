@@ -3,7 +3,7 @@
 This Bash script provides an interactive menu with three commands and an option to exit. The commands demonstrate different functionalities related to PostgreSQL database management:
 
 ![Usage Example](img/1%20-%20MENU.png)
-*Figure 1: Running the script and navigating through the menu options.*
+<br>*Figure 1: Running the script and navigating through the menu options.*
 
 1. **Check PostgreSQL**: This option installs the necessary PostgreSQL client tools (based on the detected Linux distribution) and displays the versions of `psql` and `pg_dump`.
 
