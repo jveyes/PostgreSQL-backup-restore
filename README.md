@@ -77,6 +77,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ***
 
+## Fork Information
+
+This repository is a modified fork of the [bashmenu](https://github.com/jveyes/bashmenu) repository by JESUS VILLALOBOS.
+
 ## Author
 
 This script was created by JESUS VILLALOBOS.
