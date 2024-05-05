@@ -1,10 +1,8 @@
 # PostgreSQL Backup and Restore Utility
 
-This Bash script (246 lines of code) provides an interactive menu with three commands and an option to exit. The commands demonstrate different functionalities related to PostgreSQL database management:
+This Bash script (246 lines of code) serves as an interactive menu utility designed to manage PostgreSQL databases efficiently. It provides users with a menu interface offering three main functionalities.
 
 ## Description
-
-This Bash script serves as an interactive menu utility designed to manage PostgreSQL databases efficiently. It provides users with a menu interface offering three main functionalities:
 
 - **Check postgreSQL**: This option allows users to check for and install PostgreSQL client tools based on their Linux distribution. It verifies the installation of essential tools such as `psql` and `pg_dump` and displays their versions.
 
