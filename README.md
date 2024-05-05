@@ -11,7 +11,8 @@ This Bash script provides an interactive menu with three commands and an option 
 - [Author](#author)
 
 ***
-**
+---
+___
 ## Features
 
 ![Usage Example](img/1%20-%20MENU.png)
