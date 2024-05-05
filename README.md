@@ -6,7 +6,7 @@ This Bash script provides an interactive menu with three commands and an option 
 - [Features ✨](#features)
 - [Usage](#usage)
   - [Requirements](#requirements)
-  - [How to Run](#how-to-run)
+  - [Error Handling](#Error-Handling)
 - [Script Overview](#script-overview)
   - [Functions](#functions)
   - [Main Loop](#main-loop)
