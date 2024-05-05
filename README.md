@@ -10,6 +10,8 @@ This Bash script provides an interactive menu with three commands and an option 
 - [License](#license)
 - [Author](#author)
 
+***
+
 ## Features
 
 ![Usage Example](img/1%20-%20MENU.png)
@@ -26,11 +28,15 @@ This Bash script provides an interactive menu with three commands and an option 
 
 ![Usage Example](img/6%20-%20OPC%203%20-%20BACKUP%20TO%20RESTORE.png)
 
+***
+
 ## Usage
 
 1. Clone the repository or download the script file.
 2. Make the script executable: `chmod +x bupres.sh`
 3. Run the script: `./bupres.sh` or `bash bupres.sh`
+
+***
 
 ## Requirements
 
@@ -40,6 +46,8 @@ This Bash script provides an interactive menu with three commands and an option 
   - Debian-based (Ubuntu, Debian, etc.)
   - Red Hat-based (CentOS, RHEL, etc.)
   - Arch-based (Arch Linux, Manjaro, etc.)
+
+***
 
 ## Error Handling
 
@@ -54,9 +62,13 @@ The script includes basic error handling for different scenarios:
 - Errors hwen there are no .sql files in the directory to restore.
 ![Usage Example](img/7%20-%20OPC%203%20-%20ERROR%20FOR%20RESTORE.png)
 
+***
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+***
 
 ## Author
 
