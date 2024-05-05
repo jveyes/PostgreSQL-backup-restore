@@ -95,6 +95,24 @@ This project is licensed under the [MIT License](LICENSE).
 
 This repository is a modified fork of the [bashmenu](https://github.com/jveyes/bashmenu) repository by JESUS VILLALOBOS.
 
+***
+
+## Safety Disclaimer
+
+This Bash script is provided as-is, without any warranties or guarantees of any kind. While every effort has been made to ensure its reliability and security, it is important to note that:
+
+- **No Information Collection**: This script does not collect any personal or sensitive information from users. All operations are performed locally on the user's machine.
+
+- **No Malicious Code**: The script has been developed with transparency and security in mind. It does not contain any malicious code or hidden functionalities that could compromise the user's system.
+
+- **User Responsibility**: Users are advised to review the script's code and verify its functionality before running it on their systems. It is recommended to run scripts obtained from the internet in a controlled environment to ensure safety.
+
+- **Use at Your Own Risk**: The use of this script is entirely at the user's discretion. The author(s) and contributors cannot be held responsible for any damages or losses resulting from its use.
+
+It is recommended to exercise caution and perform due diligence when using scripts obtained from external sources.
+
+***
+
 ## Author
 
 This script was created by JESUS VILLALOBOS.
