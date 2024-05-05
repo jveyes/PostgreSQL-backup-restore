@@ -99,7 +99,7 @@ This repository is a modified fork of the [bashmenu](https://github.com/jveyes/b
 
 ***
 
-![Disclaimer](img/disclaimer.png)
+<center>![Disclaimer](img/disclaimer.png)</center>
 
 ## Safety Disclaimer
 
