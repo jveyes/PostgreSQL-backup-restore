@@ -1,6 +1,6 @@
 # PostgreSQL Backup and Restore Utility
 
-This Bash script provides an interactive menu with three commands and an option to exit. The commands demonstrate different functionalities related to PostgreSQL database management:
+This Bash script (246 lines of code) provides an interactive menu with three commands and an option to exit. The commands demonstrate different functionalities related to PostgreSQL database management:
 
 ## Description
 
@@ -22,8 +22,8 @@ It's a user-friendly menu layout and prompts for user input when necessary, this
 - [Requirements](#requirements)
 - [Error Handling](#error-handling)
 - [License](#license)
-- [Safety Disclaimer](#safety-disclaimer)
 - [Fork Information](#fork-information)
+- [Safety Disclaimer](#safety-disclaimer)
 - [Author](#author)
 
 ***
