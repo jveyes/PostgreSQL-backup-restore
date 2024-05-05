@@ -10,7 +10,7 @@ This Bash script serves as an interactive menu utility designed to manage Postgr
 
 - **Backup DB**: Users can create backups of PostgreSQL databases by providing connection details such as host, database name, and user credentials. The script generates a backup file with a timestamp in the filename for easy identification.
 
-- **Restore DB**: This option facilitates the restoration of PostgreSQL databases from previously created backup files. Users select the backup file from a list of the two most recent files in the script's directory and provide connection details for the new PostgreSQL database.
+- **Restore DB**: This option facilitates the restoration of PostgreSQL databases from previously created backup files. Users select the backup file from a list of the 20 most recent files in the script's directory and provide connection details for the new PostgreSQL database.
 
 It's a user-friendly menu layout and prompts for user input when necessary, this script simplifies routine tasks related to PostgreSQL database management, making it convenient and accessible for users of all experience levels.
 
