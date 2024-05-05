@@ -133,7 +133,7 @@ execute_command3() {
     # Set the directory where the backup SQL files are located
     BACKUP_DIR=$(pwd)
 
-    # Get a list of the 2 most recent .sql files in the directory, along with their creation timestamps
+    # Get a list of the 20 most recent .sql files in the directory, along with their creation timestamps
     sql_files=($(find "$BACKUP_DIR" -maxdepth 1 -type f -name "*.sql" -printf "%T@ %f\n" | sort -nr | head -n 20 | awk '{print $2}'))
     timestamps=($(find "$BACKUP_DIR" -maxdepth 1 -type f -name "*.sql" -printf "%T@ %f\n" | sort -nr | head -n 20 | awk '{print $1}'))
     echo
