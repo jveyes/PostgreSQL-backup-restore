@@ -22,6 +22,8 @@ It's a user-friendly menu layout and prompts for user input when necessary, this
 - [Requirements](#requirements)
 - [Error Handling](#error-handling)
 - [License](#license)
+- [Safety Disclaimer](#safety-disclaimer)
+- [Fork Information](#fork-information)
 - [Author](#author)
 
 ***
@@ -96,6 +98,8 @@ This project is licensed under the [MIT License](LICENSE).
 This repository is a modified fork of the [bashmenu](https://github.com/jveyes/bashmenu) repository by JESUS VILLALOBOS.
 
 ***
+
+![Disclaimer](img/disclaimer.png)
 
 ## Safety Disclaimer
 
