@@ -2,6 +2,22 @@
 
 This Bash script provides an interactive menu with three commands and an option to exit. The commands demonstrate different functionalities related to PostgreSQL database management:
 
+## Description
+
+This Bash script serves as an interactive menu utility designed to manage PostgreSQL databases efficiently. It provides users with a menu interface offering three main functionalities:
+
+- **Check postgreSQL**: This option allows users to check for and install PostgreSQL client tools based on their Linux distribution. It verifies the installation of essential tools such as `psql` and `pg_dump` and displays their versions.
+
+- **Backup DB**: Users can create backups of PostgreSQL databases by providing connection details such as host, database name, and user credentials. The script generates a backup file with a timestamp in the filename for easy identification.
+
+- **Restore DB**: This option facilitates the restoration of PostgreSQL databases from previously created backup files. Users select the backup file from a list of the two most recent files in the script's directory and provide connection details for the new PostgreSQL database.
+
+The script incorporates color-coded messages for clarity and uses proper error handling techniques to guide users through each operation. Additionally, it features a user-friendly menu layout and prompts for user input when necessary.
+
+Overall, this script simplifies routine tasks related to PostgreSQL database management, making it convenient and accessible for users of all experience levels.
+
+***
+
 ## Table of Contents
 - [Features ✨](#features)
 - [Usage](#usage)
